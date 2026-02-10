@@ -1,0 +1,61 @@
+{
+  "experiment_id": "sthrd_lyapunov_20260209_080613",
+  "timestamp": "2026-02-09 08:06:13",
+  "total_runs": 2250,
+  "rho_values": [
+    1.0,
+    0.5,
+    0.2
+  ],
+  "A_values": [
+    0.001,
+    0.01,
+    0.1,
+    0.3,
+    0.6,
+    1.0
+  ],
+  "dimensions": [
+    5
+  ],
+  "algorithms": [
+    "SGD",
+    "SGD_Polyak",
+    "HeavyBall",
+    "Nesterov",
+    "Adam",
+    "AdamW",
+    "AMSGrad",
+    "SMD",
+    "RDA",
+    "ProxSGD",
+    "AdaptiveLR",
+    "SignSGD",
+    "RandomSearch",
+    "OnePointSPSA",
+    "FiniteDiffCentral",
+    "FDSA",
+    "SPSA",
+    "ZOSGD",
+    "ZOSignSGD",
+    "QuadraticInterpolation",
+    "KieferWolfowitz",
+    "NedicSubgradient",
+    "AcceleratedSPSA",
+    "CMAES",
+    "GPUCB"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "T": 500,
+  "elapsed_time_seconds": 237.42673635482788,
+  "output_directory": "results_lyapunov",
+  "spsa_lr": 0.005,
+  "heavy_ball_lr": 0.1,
+  "adam_lr": 0.001
+}

@@ -1,0 +1,16 @@
+rho,algorithm,lyap_mean,lyap_std,success_rate,runtime_sec
+1.0000,AMSGrad,,,0.3333,0.0679
+1.0000,AcceleratedSPSA,,,0.5000,0.0690
+1.0000,Adam,,,0.3333,0.0644
+1.0000,AdamW,,,0.3333,0.0651
+1.0000,AdaptiveLR,,,1.0000,0.0634
+0.5000,AMSGrad,,,0.4333,0.0746
+0.5000,AcceleratedSPSA,,,0.3667,0.0838
+0.5000,Adam,,,0.3333,0.0782
+0.5000,AdamW,,,0.3333,0.0775
+0.5000,AdaptiveLR,,,1.0000,0.0716
+0.2000,AMSGrad,,,1.0000,0.0874
+0.2000,AcceleratedSPSA,,,1.0000,0.0908
+0.2000,Adam,,,1.0000,0.0879
+0.2000,AdamW,,,1.0000,0.0863
+0.2000,AdaptiveLR,,,1.0000,0.0840
